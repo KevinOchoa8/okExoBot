@@ -54,7 +54,7 @@ public class App {
                System.out.println(e.toString());
            }
 
-        //TESTING BLs
+        //------------
         System.out.println("--------------------------------------------------------------------");
         try{
 
@@ -63,7 +63,7 @@ public class App {
             try { // INFORMAR UN ERROR
                 int resultadoa = a[1] / b;
                 int resultadob = b / a[0];
-                throw new Exception("Te quiero fregar la vida");
+                throw new Exception(" Te quiero fregar la vida");
             } 
             catch (ArithmeticException e) {
                 System.out.println("El denominador no debe ser cero "); //+ e.getMessage());
@@ -78,8 +78,7 @@ public class App {
                 //System.out.println("Finally: Ejecución con o sin error");
             }
 
-            
-
+            //TESTING BLs
             okSexoBL sBL = new okSexoBL();
             //sBL.okset(new okSexoDTO(0,0,"Nuevo Sexo","Prueba",null,null,null));
             for (okSexoDTO s : sBL.getAll())

@@ -14,12 +14,12 @@ public class okMainForm extends JFrame{
 
     public okMainForm (String tittleApp){
         okcustomizeComponent(tittleApp);
-        ((okMainPanel)panelMain).btnHome.addActionListener(         e -> okSetPanel(new JPanel()));
-        ((okMainPanel)panelMain).btnLogin.addActionListener(        e -> okSetPanel(new JPanel()));
-        ((okMainPanel)panelMain).btnSexo.addActionListener(         e -> okSetPanel(new JPanel()));
-        ((okMainPanel)panelMain).btnLocalidad.addActionListener(    e -> okSetPanel(new JPanel()));
+        ((okMainPanel)panelMain).okbtnHome.addActionListener(         e -> okSetPanel(new JPanel()));
+        ((okMainPanel)panelMain).okbtnLogin.addActionListener(        e -> okSetPanel(new JPanel()));
+        ((okMainPanel)panelMain).okbtnSexo.addActionListener(         e -> okSetPanel(new JPanel()));
+        ((okMainPanel)panelMain).okbtnLocalidad.addActionListener(    e -> okSetPanel(new JPanel()));
 
-        ((okMainPanel)panelMain).btnTest.addActionListener(         e -> { okIAStyle.showMsgError("Mensaje de error");});
+        ((okMainPanel)panelMain).okbtnTest.addActionListener(         e -> { okIAStyle.okshowMsgError("Mensaje de error");});
 
     }
 

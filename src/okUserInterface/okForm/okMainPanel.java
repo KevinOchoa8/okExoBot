@@ -5,25 +5,25 @@ import javax.swing.JPanel;
 
 public class okMainPanel extends JPanel{
 
-    public JButton btnHome;
-    public JButton btnLogin;
-    public JButton btnSexo;
-    public JButton btnLocalidad;
-    public JButton btnTest;
+    public JButton okbtnHome;
+    public JButton okbtnLogin;
+    public JButton okbtnSexo;
+    public JButton okbtnLocalidad;
+    public JButton okbtnTest;
 
     public okMainPanel() {
-        btnHome = new JButton("Home");
-        btnLogin = new JButton("Login");
-        btnSexo = new JButton("Sexo");
-        btnLocalidad = new JButton("Localidad");
-        btnTest = new JButton("Test");
+        okbtnHome = new JButton("Home");
+        okbtnLogin = new JButton("Login");
+        okbtnSexo = new JButton("Sexo");
+        okbtnLocalidad = new JButton("Localidad");
+        okbtnTest = new JButton("Test");
 
         // Add buttons to the panel
-        add(btnHome);
-        add(btnLogin);
-        add(btnSexo);
-        add(btnLocalidad);
-        add(btnTest);
+        add(okbtnHome);
+        add(okbtnLogin);
+        add(okbtnSexo);
+        add(okbtnLocalidad);
+        add(okbtnTest);
     }
 
 }

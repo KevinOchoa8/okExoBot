@@ -11,36 +11,36 @@ import okUserInterface.okIAStyle;
 
 public abstract class okSplashScreenForm {
     
-    private static JFrame         sCFrame;
-    private static JProgressBar   sCProgressBar; 
-    private static ImageIcon      sCImageIcon;
-    private static JLabel         sCImageLabel;
+    private static JFrame         oksCFrame;
+    private static JProgressBar   oksCProgressBar; 
+    private static ImageIcon      oksCImageIcon;
+    private static JLabel         oksCImageLabel;
 
     public static void okshow(){
         
-        sCImageIcon   = new ImageIcon(okIAStyle.URL_SPLASH);
-        sCImageLabel  = new JLabel(sCImageIcon);
-        sCProgressBar = new JProgressBar(0, 100);
+        oksCImageIcon   = new ImageIcon(okIAStyle.okURL_SPLASH);
+        oksCImageLabel  = new JLabel(oksCImageIcon);
+        oksCProgressBar = new JProgressBar(0, 100);
         
-        sCProgressBar.setStringPainted(true);
+        oksCProgressBar.setStringPainted(true);
 
-        sCFrame = new JFrame();
-        sCFrame.setUndecorated(true);
-        sCFrame.getContentPane().add(sCImageLabel, BorderLayout.CENTER);
-        sCFrame.add(sCProgressBar, BorderLayout.SOUTH);
-        sCFrame.setSize(sCImageIcon.getIconWidth(), sCImageIcon.getIconHeight());
-        sCFrame.setLocationRelativeTo(null); //Centrar en pantalla
+        oksCFrame = new JFrame();
+        oksCFrame.setUndecorated(true);
+        oksCFrame.getContentPane().add(oksCImageLabel, BorderLayout.CENTER);
+        oksCFrame.add(oksCProgressBar, BorderLayout.SOUTH);
+        oksCFrame.setSize(oksCImageIcon.getIconWidth(), oksCImageIcon.getIconHeight());
+        oksCFrame.setLocationRelativeTo(null); //Centrar en pantalla
 
-        sCFrame.setVisible(true);
+        oksCFrame.setVisible(true);
         for(int i=0; i<=100; i++){
             try{
                 Thread.sleep(50); //50ms
 ;            } catch (InterruptedException e) {
                 e.printStackTrace();
             }
-            sCProgressBar.setValue(i);
+            oksCProgressBar.setValue(i);
         }
-        sCFrame.setVisible(false);
+        oksCFrame.setVisible(false);
     }
     
 }
