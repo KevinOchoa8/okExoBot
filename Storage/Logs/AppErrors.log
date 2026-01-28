@@ -1,0 +1,8 @@
+???? SHOW ?? Ups! Error inesperado. Por favor, contacte al administrador del sistema. 
+????? LOG  ?? 2026-01-27 19:30:21 | okSexoDAO.getMinReg(...) | [SQLITE_ERROR] SQL error or missing database (no such column: idSexo)
+???? SHOW ?? Ups! Error inesperado. Por favor, contacte al administrador del sistema. 
+????? LOG  ?? 2026-01-27 19:30:26 | okSexoDAO.getMinReg(...) | [SQLITE_ERROR] SQL error or missing database (no such column: idSexo)
+???? SHOW ?? Ups! Error inesperado. Por favor, contacte al administrador del sistema. 
+????? LOG  ?? 2026-01-27 19:37:30 | okSexoDAO.getMinReg(...) | [SQLITE_ERROR] SQL error or missing database (no such column: idSexo)
+???? SHOW ?? Ups! Error inesperado. Por favor, contacte al administrador del sistema. 
+????? LOG  ?? 2026-01-27 19:45:36 | okSexoDAO.getMinReg(...) | [SQLITE_ERROR] SQL error or missing database (no such column: idSexo)
